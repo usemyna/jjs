@@ -1,26 +1,40 @@
 <!doctype html>
 <html>
 <head>
-<title>JJS</title>
-<meta charset="utf-8">
+  <title>JJS-html</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css"
 </head>
 <body>
-<h1><a href="JJS index.html">JJS</a></h1>
-<ul>
-  <li><a href="김재순.html" target="_blank"> 김 재 순</a></li>
-  <li><a href="조동현.html" target="_blank"> 조 동 현</a></li>
-  <li><a href="한승주.html" target="_blank"> 한 승 주</a></li>
-</ul>
-<h2>JJSociety</h2>
-2016년 9월 1일 서울(Seuol,South Korea)에서 우연히 만들어졌다. <br> 매년 9월1일 창립일을 기념하기 위해 별도의 행사를 진행하지 않는다.
-<p>창립멤버로는 김재순, 신승준, 조동현, 한승주가 있다.
-  <br>ÇEDA 정신을 추구한다.
-<ol>
-  <li>Çalışkan</li>
-  <li>Exelsior</li>
-  <li>Dinç</li>
-  <li>Absorption</li>
-</ol> </p><img src="단체사진.jpg" width="450">
-<p style="margin-top:40px;">단체사진- 가장 멋있는 옷을 입고, 가장 멋있는 포즈를 취했다.</p>
+  <input type="button" value="night" onclick="
+document.querySelector('body').style.backgroundColor='black';
+document.querySelector('body').style.color='white';
+  ">
+  <input type="button"  value="day" onclick="
+document.querySelector('body').style.backgroundColor='white';
+document.querySelector('body').style.color='black';
+  ">
+    <h1><a href="JJS index.html">JJS</a></h1>
+    <div id="grid">
+      <ul>
+        <li><a href="김재순.html"> 김 재 순</a></li>
+        <li><a href="조동현.html"> 조 동 현</a></li>
+        <li><a href="한승주.html"> 한 승 주</a></li>
+      </ul>
+        <div id="article">
+          <h2>JJSociety</h2>
+          2016년 9월 1일 서울(Seuol,South Korea)에서 우연히 만들어졌다. <br> 매년 9월1일 창립일을 기념하기 위해 별도의 행사를 진행하지 않는다.
+          <p>창립멤버로는 김재순, 신승준, 조동현, 한승주가 있다.
+            <br>ÇEDA 정신을 추구한다.
+          <ol>
+            <strong><li>Çalışkan</li>
+            <li>Exelsior</li>
+            <li>Dinç</li>
+            <li>Absorption</li></strong>
+          </ol> </p><img src="단체사진.jpg" width="300">
+          <p style="margin-top:10px;">단체사진- 가장 멋있는 옷을 입고, 가장 멋있는 포즈를 취했다.</p>
+</body>
+    </div>
+</div>
 </body>
 </html>
